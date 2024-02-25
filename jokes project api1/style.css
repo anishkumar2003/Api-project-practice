@@ -23,3 +23,19 @@ body {
 .JokePunchLine {
   margin-top: 30px;
 }
+
+.btnChange {
+  margin-top: 20px;
+  padding: 4px;
+  background: linear-gradient(to right, #daffcc, #66ff7a);
+  font-size: 30px;
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  border-color: green;
+  transition: all 2s;
+}
+.btnChange:hover {
+  border-color: black;
+  scale: 1.1;
+}
