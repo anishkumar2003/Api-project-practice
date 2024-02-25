@@ -1,9 +1,12 @@
 body {
+  font-family: Arial, sans-serif;
   height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  overflow-x: hidden;
 }
 .card_container {
   display: flex;
@@ -31,7 +34,6 @@ body {
 }
 
 .detail p {
-  font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 1.6;
   color: #333;
@@ -40,4 +42,17 @@ body {
 
 .detail p span {
   font-weight: bold;
+}
+.btnnext {
+  margin-top: 10px;
+  font-weight: 600;
+  padding: 5px 10px;
+  font-size: 20px;
+  border-color: transparent;
+  background-color: rosybrown;
+  transition: all 1s;
+}
+.btnnext:hover {
+  background-color: rgb(224, 152, 152);
+  border-color: pink;
 }
